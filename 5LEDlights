@@ -1,0 +1,36 @@
+// C++ code
+//
+void setup()
+{
+  pinMode(13, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);
+  delay(100); // Wait for 100 millisecond(s)
+  digitalWrite(13, LOW);
+  delay(100); // Wait for 100 millisecond(s)
+    digitalWrite(12, HIGH);
+  delay(100); // Wait for 200 millisecond(s)
+  digitalWrite(12, LOW);
+  delay(100); // Wait for 200 millisecond(s)
+    digitalWrite(11, HIGH);
+  delay(100); // Wait for 300 millisecond(s)
+  digitalWrite(11, LOW);
+  delay(100); // Wait for 300 millisecond(s)
+    digitalWrite(10, HIGH);
+  delay(100); // Wait for 400 millisecond(s)
+  digitalWrite(10, LOW);
+  delay(100); // Wait for 400 millisecond(s)
+    digitalWrite(9, HIGH);
+  delay(100); // Wait for 500 millisecond(s)
+  digitalWrite(9, LOW);
+  delay(100); // Wait for 500 millisecond(s)
+      digitalWrite(8, HIGH);
+  delay(100); // Wait for 600 millisecond(s)
+  digitalWrite(8, LOW);
+  delay(100); // Wait for 600 millisecond(s)
+
+
+}
